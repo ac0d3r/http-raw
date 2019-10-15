@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+http-raw = {path = ".",editable = true}
+autopep8 = "*"
+pylint = "*"
+v = {editable = true,version = "*"}
+twine = "*"
+
+[packages]
+
+[requires]
+python_version = "3"
